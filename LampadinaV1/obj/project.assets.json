@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\leohu\\.nuget\\packages\\": {},
+    "C:\\Users\\gambirasio.21194\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leohu\\source\\repos\\LampadinaV1\\LampadinaV1.csproj",
+      "projectUniqueName": "C:\\Users\\gambirasio.21194\\Projects\\LightBulbV2\\LampadinaV1\\LampadinaV1.csproj",
       "projectName": "LampadinaV1",
-      "projectPath": "C:\\Users\\leohu\\source\\repos\\LampadinaV1\\LampadinaV1.csproj",
-      "packagesPath": "C:\\Users\\leohu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leohu\\source\\repos\\LampadinaV1\\obj\\",
+      "projectPath": "C:\\Users\\gambirasio.21194\\Projects\\LightBulbV2\\LampadinaV1\\LampadinaV1.csproj",
+      "packagesPath": "C:\\Users\\gambirasio.21194\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gambirasio.21194\\Projects\\LightBulbV2\\LampadinaV1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\leohu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gambirasio.21194\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

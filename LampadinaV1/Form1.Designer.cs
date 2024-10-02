@@ -41,9 +41,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(126, 73);
+            button1.Location = new Point(88, 44);
+            button1.Margin = new Padding(2, 2, 2, 2);
             button1.Name = "button1";
-            button1.Size = new Size(144, 70);
+            button1.Size = new Size(101, 42);
             button1.TabIndex = 0;
             button1.Text = "ACCENDI";
             button1.UseVisualStyleBackColor = true;
@@ -51,9 +52,10 @@
             // 
             // button2
             // 
-            button2.Location = new Point(126, 149);
+            button2.Location = new Point(88, 89);
+            button2.Margin = new Padding(2, 2, 2, 2);
             button2.Name = "button2";
-            button2.Size = new Size(144, 70);
+            button2.Size = new Size(101, 42);
             button2.TabIndex = 1;
             button2.Text = "SPEGNI";
             button2.UseVisualStyleBackColor = true;
@@ -61,9 +63,10 @@
             // 
             // button3
             // 
-            button3.Location = new Point(126, 248);
+            button3.Location = new Point(88, 149);
+            button3.Margin = new Padding(2, 2, 2, 2);
             button3.Name = "button3";
-            button3.Size = new Size(144, 70);
+            button3.Size = new Size(101, 42);
             button3.TabIndex = 2;
             button3.Text = "ALZA";
             button3.UseVisualStyleBackColor = true;
@@ -71,9 +74,10 @@
             // 
             // button4
             // 
-            button4.Location = new Point(126, 324);
+            button4.Location = new Point(88, 194);
+            button4.Margin = new Padding(2, 2, 2, 2);
             button4.Name = "button4";
-            button4.Size = new Size(144, 70);
+            button4.Size = new Size(101, 42);
             button4.TabIndex = 3;
             button4.Text = "ABBASSA";
             button4.UseVisualStyleBackColor = true;
@@ -82,9 +86,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(525, 149);
+            pictureBox1.Location = new Point(368, 89);
+            pictureBox1.Margin = new Padding(2, 2, 2, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(160, 151);
+            pictureBox1.Size = new Size(112, 91);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
@@ -93,25 +98,28 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(525, 149);
+            pictureBox2.Location = new Point(368, 89);
+            pictureBox2.Margin = new Padding(2, 2, 2, 2);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(160, 151);
+            pictureBox2.Size = new Size(112, 91);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 6;
             pictureBox2.TabStop = false;
             pictureBox2.Visible = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(560, 270);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;

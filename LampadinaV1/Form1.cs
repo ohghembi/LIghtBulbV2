@@ -24,13 +24,16 @@ namespace LampadinaV1
             pictureBox2.Visible = true;
         }
 
-        int y = 149, x = 525;
+        int y = 89, x = 368;
         private void button3_Click(object sender, EventArgs e)
         {
-            pictureBox1.Location = new Point(x, y - 10);
-            pictureBox2.Location = new Point(x, y - 10);
+            if (y>-10)
+            {
+                pictureBox1.Location = new Point(x, y - 10);
+                pictureBox2.Location = new Point(x, y - 10);
 
-            y = y - 10;
+                y = y - 10;
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -47,6 +50,11 @@ namespace LampadinaV1
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }
